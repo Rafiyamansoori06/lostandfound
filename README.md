@@ -55,7 +55,7 @@ pip install -r requirements.txt
 ## Start server
 
 ```bash
-python main.py
+uvicorn main:app --reload
 ```
 
 ---
